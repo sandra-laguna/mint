@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #e2e8f0;
+}
+
+.logo {
+    width: 25%;
+}
+
+.fa-bars:before{content:"\f0c9"}
+
+.fa, .fas {
+    font-weight: 900;
+}
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free";
+}
+.fa, .fab, .fad, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.blog_recientes > a {
+    display: none;
+    font-size: 20px;
+}
+
+body {
+    width: 90%;
+    margin: 0 auto !important;
+}
+
+.img-partner {
+    width: 12%;
+    max-width: 50px;
+}
+
+/*Tablet*/
+@media (min-width: 640px) {
+
+}
+
+/*Laptop*/
+@media (min-width: 1024px) {
+
+}
+
+/*Desktop*/
+@media (min-width: 1280px) {
+    body {
+        width: 70%;
+        margin: 0 auto !important;
+    }
+}
