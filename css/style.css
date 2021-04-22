@@ -33,6 +33,10 @@
     line-height: 1;
 }
 
+.d-none {
+    display: none;
+}
+
 .blog_recientes > a {
     display: none;
     font-size: 20px;
@@ -50,7 +54,9 @@ body {
 
 /*Tablet*/
 @media (min-width: 640px) {
-
+    .d-none {
+        display: block;
+    }
 }
 
 /*Laptop*/
